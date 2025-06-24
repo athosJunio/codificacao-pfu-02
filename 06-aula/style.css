@@ -1,0 +1,39 @@
+h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+nav{
+    background-color: rgb(255, 0, 0)
+}
+ul{
+    list-style-type: none;
+}
+li{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div{
+    background-color: rgb(0, 0, 0);
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#caixa-preta{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+    width: 200px;
+    height: 300px;
+}
+#caixa-vermelha{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 1200px ;
+    height: 300px;
+   margin: 20px auto;
+   padding: 20px;
+}
+.mini-caixa{
+    background-color: rgb(255, 0, 0);
+    font-size: 35px;
+    text-align: center;
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+}
