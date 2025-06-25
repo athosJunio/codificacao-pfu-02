@@ -1,0 +1,36 @@
+body{
+    background-color: beige;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+  
+}
+
+#principal{
+    width: 90%;
+    height: 800px;
+  margin: auto;
+  background-color: brown;
+   background-image: linear-gradient(rgb(0, 0, 0),rgb(255, 0, 0));
+ /* background-image: linear-gradient(red,black); : faz o degrade nas cores*/
+ /* background-size: cover : cresce a imagem*/
+
+}
+#secundario{
+     width: 90%;
+    height: 800px;
+  margin: auto;
+  background-color: rgb(255, 0, 0);
+  background-image: linear-gradient(rgb(0, 0, 0),rgb(255, 0, 0));
+  background-image: url("https://th.bing.com/th/id/OIP.cwcXy_K966xN9X1eDeglgwHaEK?rs=1&pid=ImgDetMain");
+  background-repeat: repeat;
+  background-position: center;
+
+}
+#tudotres{
+      width: 90%;
+    height: 2000px;
+  margin: auto;
+  background-color: brown;
+   background-image: linear-gradient(rgb(255, 0, 0),rgb(0, 0, 0));
+}
