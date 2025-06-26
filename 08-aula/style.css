@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+
+
+body{
+    background-color: rgb(255, 0, 0);
+    color:rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+P{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+#na-direita{
+    text-align: right;
+}
+
+#na-esquerda{
+    text-align: left;
+}
+
+#na-meio{
+    text-align: center;
+}
+
+#justificado{
+    text-align: justify;
+}
+
+#minusculo{
+    text-transform: lowercase;
+}
+
+#maiusculo{
+    text-transform: uppercase;
+}
+
+#capitalizado{
+    text-transform: capitalize;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 700;
+    text-shadow: 8px 8px black;
+}
+
+#decorado{
+    text-decoration: overline underline  yellow;
+    
+}
+#outrafonte{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    color: yellow;
+} 
+#font-google{
+    font-family: "Manufacturing Consent", system-ui;
+}
+
+@font-face{
+        font-family: 'PressStart2p';
+        src:url(./fontes/PressStart2P-Regular.ttf)
+    }
+
+#outra-font-google{
+  font-family: 'PressStart2p';
+  font-size: 50px;
+}        
